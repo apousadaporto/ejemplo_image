@@ -8,6 +8,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+   <picture>
+       <!-- Smartphone -->
+       <source srcset="
+       ./img/smartphone/banner.webp 1x,
+       ./img/smartphone/banner@2x.webp 2x,
+       ./img/smartphone/banner@3x.webp 3x
+       "
+       media="(min-width:300px) and (orientation:portrait)"
+       /> 
+
+        <!-- SEO -->
+        <img src="" alt="chico practicando skate" />
+   </picture>
+
+   <picture>
+         <!-- Tablet -->
+       <source srcset="
+       ./img/tablet/banner.webp 1x,
+       ./img/tablet/banner@2x.webp 2x
+       "
+       media="(min-width:768px)"
+       />
+
+       <!-- SEO -->
+       <img src="" alt="un skate con una puesta de sol" />
+   </picture>
+
+   <picture>
+        <!-- Desktop -->
+        <source srcset="
+        ./img/desktop/banner.webp 1x,
+        ./img/desktop/banner@2x.webp 2x
+        "
+        media="(min-width:1440px)"
+        />
+
+        <!-- SEO -->
+        <img src="" alt="chicos practicando skate en un parque" />
+   </picture>
+
+   <!-- Logo -->
+   <img src="./img/SVG/github.svg" alt="icono-github">
+   <img src="./img/SVG/twitch.svg" alt="icono-twitch">
+   <img src="./img/SVG/twitter.svg" alt="icono-twitter">
+
 </body>
 </html>
